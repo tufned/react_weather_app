@@ -1,0 +1,119 @@
+.container {
+  padding: 30px 5% 15px 5%;
+  color: #484848;
+  background: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container .line {
+  height: 1px;
+  width: calc(100% - 25px);
+  margin: 0 auto;
+  border-radius: 100%;
+  background-color: #d7d7d7;
+}
+
+.q-a-cities::-webkit-scrollbar {
+  background-color: inherit;
+  width: 4px;
+}
+
+.q-a-cities::-webkit-scrollbar-thumb {
+  background-color: rgba(217, 215, 215, 0.8039215686);
+  border-radius: 100px;
+}
+
+.q-a-cities {
+  overflow-y: scroll;
+  margin: 0 0 15px 0;
+}
+.q-a-cities .city-shell {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 10px;
+  border-radius: 15px;
+}
+.q-a-cities .city-shell p {
+  pointer-events: none;
+}
+.q-a-cities .city-shell:hover {
+  cursor: pointer;
+  background-color: #dde2e3;
+}
+.q-a-cities .city-shell_highlited {
+  pointer-events: none;
+  color: #fff;
+  background-color: rgb(63, 147, 253);
+}
+
+.cities-list {
+  text-align: center;
+}
+.cities-list .search-bar {
+  text-align: center;
+  width: 85%;
+  border-radius: 12px;
+  border: none;
+  padding: 5px 5%;
+  color: #484848;
+  background: #f2eeee;
+  border: 1px solid rgba(205, 205, 205, 0.8392156863);
+  box-shadow: 0px 0px 60px 0px rgba(0, 0, 0, 0.15);
+}
+.cities-list .search-bar:focus {
+  outline: none;
+  border-color: #3f93fd;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.2);
+}
+.cities-list .search-results {
+  margin: 20px 0;
+  overflow-y: scroll;
+  height: 65vh;
+}
+.cities-list .search-results .city {
+  display: flex;
+  justify-content: center;
+  padding: 15px 10px;
+  border-radius: 15px;
+}
+.cities-list .search-results .city:hover {
+  cursor: pointer;
+  background-color: #dde2e3;
+}
+.cities-list ::-webkit-scrollbar {
+  background-color: inherit;
+  width: 4px;
+}
+.cities-list ::-webkit-scrollbar-thumb {
+  background-color: rgba(217, 215, 215, 0.8039215686);
+  border-radius: 100px;
+}
+
+.add-city-shell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+  border-radius: 15px;
+}
+.add-city-shell .plus-icon {
+  width: 24px;
+  height: 24px;
+  margin: 0 20px 0 0;
+}
+.add-city-shell p {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.add-city-shell:hover {
+  cursor: pointer;
+  background-color: #dde2e3;
+}
+
+.unactive {
+  display: none;
+}/*# sourceMappingURL=sidebar.css.map */

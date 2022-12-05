@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  font-size: 20px;
+  font-family: "Sono", sans-serif;
+}
+
+.core-grid-shell {
+  display: grid;
+  grid-template-columns: 15vw 1fr;
+  grid-template-rows: 100vh;
+}/*# sourceMappingURL=style.css.map */

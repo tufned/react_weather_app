@@ -1,0 +1,43 @@
+.mainPage-shell {
+  background: #268dbd;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 50px 0 0 0;
+}
+
+.top-block-shell {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.top-block-shell .degree-shell {
+  text-align: center;
+}
+.top-block-shell .degree-shell .degree {
+  font-size: 150px;
+}
+.top-block-shell .degree-shell .feelslike {
+  font-size: 17px;
+}
+.top-block-shell .extra-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.top-block-shell .extra-info div {
+  margin: 5px 0;
+}
+.top-block-shell .extra-info .city-name {
+  font-size: 80px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+.top-block-shell .extra-info .status {
+  padding: 0 0 0 10px;
+}/*# sourceMappingURL=mainPage.css.map */
